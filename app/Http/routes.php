@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/home/{nome}/{id}', function ($nome, $id) {
     return "$nome, Seja bem vindo. Seu número: $id";
 })->where ('id', '[0-9]+');
+
+Route::get('/inicio', function(){
+    return view('teste');
+});
