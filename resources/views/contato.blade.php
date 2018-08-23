@@ -11,8 +11,8 @@
 
     <title>Starter Template for Bootstrap</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -55,12 +55,13 @@
     </nav>
 
     <div class="container">
+        <h1>Entre em contato!</h1>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
+        <form action="" method="post">
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Entre com o seu nome">
+        </form>
     </div><!-- /.container -->
 
 

@@ -2,9 +2,33 @@
 //Arquivo responsavel pelas rotas
 
 Route::get('/', function () {
-    return 'Projeto Laravel - TADS 6º Periodo';
+    return view('welcome');
 });
 
+Route::get('/sobre', function(){
+    return view('sobre');
+});
+
+Route::get('/contato', function(){
+    return view('contato');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 //Criando uma rota de uma página de login, // ? para não obrigatorios, ='' definindo valor caso n seja passado
 Route::get('/home/{nome}/{id}', function ($nome, $id) {
     return "$nome, Seja bem vindo. Seu número: $id";
@@ -13,3 +37,4 @@ Route::get('/home/{nome}/{id}', function ($nome, $id) {
 Route::get('/inicio', function(){
     return view('teste');
 });
+*/
