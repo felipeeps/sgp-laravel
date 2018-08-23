@@ -58,6 +58,7 @@
         <h1>Entre em contato!</h1>
 
         <form action="" method="post">
+            <?= csrf_field() ?>
             <p class="form-group">
                 <label for="nome">Nome</label>
                 <input class="form-control" type="text" name="nome" placeholder="Entre com o seu nome">

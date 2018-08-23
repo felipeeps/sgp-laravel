@@ -13,6 +13,12 @@ Route::get('/contato', function(){
     return view('contato');
 });
 
+//Pegando as informações do meu formulário
+Route::post('/contato', function(){
+    //Exibe todas as informações fornecidas
+    return Request::all();
+});
+
 
 
 
