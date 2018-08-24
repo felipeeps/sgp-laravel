@@ -2,7 +2,7 @@
 @extends('layouts.master')
 
 <!-- Definindo o titulo da minha pagina -->
-@section('title', 'SGP: Pagina Inicial')
+@section('title', 'SGP: Sobre')
 
 <!-- Chamando o yield container e incluindo meu HTML -->
 @section('container')
