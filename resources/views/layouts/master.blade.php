@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>@section('title', 'SGP: Sistema de Gerenciamento de Projetos')</title> <!-- Seção Titulo, com valor para caso não tenha sido preenchido -->
+    <title>@yield('title', 'SGP: Sistema de Gerenciamento de Projetos')</title> <!-- Seção Titulo, com valor para caso não tenha sido preenchido -->
 
     <!-- Inicio - Seção dos CSS -->
     @section('styles')
