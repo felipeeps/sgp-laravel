@@ -6,11 +6,11 @@
 
 <!-- Chamando o yield container e incluindo meu HTML -->
 @section('container')
-<div class="starter-template">
+    <div class="starter-template">
         <h1>Sobre</h1>
         <p class="lead">
             Sistema Web para gerenciamento de projetos.
             Desenvolvido utilizando laravel.
         </p>
-      </div>
+    </div>
 @endsection
