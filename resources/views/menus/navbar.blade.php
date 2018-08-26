@@ -11,9 +11,11 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="{{ url('sobre') }}">Sobre</a></li>
-            <li><a href="{{ url('contato') }}">Contato</a></li>
+            <li><a href="{{url('/')}}">Home</a></li>
+            <li>
+                <a href="{{url('sobre')}}">Sobre</a>
+            </li>
+            <li><a href="{{url('contato')}}">Contato</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
