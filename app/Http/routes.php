@@ -5,19 +5,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sobre', function(){
-    return view('sobre');
-});
+/* 
+Rotas para controller básico
+    Route::get('/sobre', 'InstitucionalController@sobre');
+    Route::get('/contato', 'InstitucionalController@contato');
+    Route::post('/contato', 'InstitucionalController@contatoEnviado');
+*/
 
-Route::get('/contato', function(){
-    return view('contato');
-});
-
-//Pegando as informações do meu formulário
-Route::post('/contato', function(){
-    //Exibe todas as informações fornecidas
-    return Request::all();
-});
+//Rota para controller Implícito
+Route::controller('institucional', 'InstitucionalController');
 
 
 

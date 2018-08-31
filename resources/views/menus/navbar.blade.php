@@ -13,9 +13,9 @@
           <ul class="nav navbar-nav">
             <li><a href="{{url('/')}}">Home</a></li>
             <li>
-                <a href="{{url('sobre')}}">Sobre</a>
+                <a href="{{url('institucional/sobre')}}">Sobre</a>
             </li>
-            <li><a href="{{url('contato')}}">Contato</a></li>
+            <li><a href="{{url('institucional/contato')}}">Contato</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

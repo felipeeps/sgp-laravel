@@ -1,0 +1,17 @@
+Laravel controllers:
+ - Básico
+ - Implicito
+ - Restful
+
+Listando minhas rotas:
+php artisan route:list
+
+Criando um Controller:
+php artisan make:controller "NomedoController"
+
+Criar um projeto de banco de dados
+ - 4 a 6 tabelas
+ - 1 tabela sem FK
+ - 1 tabela 1 x N
+ - 1 tabela N x N
+ 

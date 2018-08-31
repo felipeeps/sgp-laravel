@@ -9,6 +9,7 @@
     <h1>Entre em contato!</h1>
 
     <form action="" method="post">
+    <!-- { ! ! ! ! } - Utilizado para produzir codigo php, substitui <? php ?> -->
         {!! csrf_field() !!}
         <p class="form-group">
             <label for="nome">Nome</label>
