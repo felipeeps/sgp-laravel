@@ -15,6 +15,17 @@ Rotas para controller básico
 //Rota para controller Implícito
 Route::controller('institucional', 'InstitucionalController');
 
+//Rora para controller implicito - Loja 
+Route::controller('loja', 'LojaController');
+
+Route::get('listaprodutos', 'LojaController@lista');
+
+Route::get('listaprodutos/mostra', 'LojaController@mostra');
+
+Route::get('cadastro', 'LojaController@cadastro');
+
+Route::post('adiciona', 'LojaController@adiciona');
+
 
 
 
